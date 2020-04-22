@@ -1,0 +1,22 @@
+{
+  "name": "zoomunmutebutton",
+  "version": "1.0.0",
+  "description": "An unmute button for zoom working on an obniz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qurihara/zoomunmutebutton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qurihara/zoomunmutebutton/issues"
+  },
+  "homepage": "https://github.com/qurihara/zoomunmutebutton#readme",
+  "dependencies": {
+    "obniz": "^3.4.1"
+  }
+}
