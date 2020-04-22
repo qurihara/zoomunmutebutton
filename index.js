@@ -12,8 +12,10 @@ obniz.onconnect = async function () {
         toggle();
         if(state === true){
           obniz.display.print("unmuted");
+          obniz.led.on();
         }else{
           obniz.display.print("muted");
+          obniz.led.off();
         }
         obniz.display.drawing(true);
       }
