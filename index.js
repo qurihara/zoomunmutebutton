@@ -1,7 +1,8 @@
+// node index.js <obniz-id>
 const { exec } = require('child_process')
 var Obniz = require("obniz");
 
-var obniz = new Obniz.M5StickC("xxx");
+var obniz = new Obniz.M5StickC(process.argv[2]);
 obniz.onconnect = async function () {
     c_state=false;
     obniz.buttonA.onchange = function(state) {
